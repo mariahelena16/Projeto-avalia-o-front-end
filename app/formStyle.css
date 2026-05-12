@@ -7,7 +7,9 @@
     justify-content: center;
     min-height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
+    background-image: url('https://i.pinimg.com/1200x/c2/d1/92/c2d192620b460315a27752dfb6996e8b.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* O "Card" branco do formulário */
@@ -41,14 +43,14 @@
 }
 
 .input-field:focus {
-    border-color: #007bff;
+    border-color: #e4abd5;
 }
 
 /* Botão de Entrar */
 .btn-login {
     width: 100%;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #d796b5;
     color: white;
     border: none;
     border-radius: 5px;
@@ -59,7 +61,7 @@
 }
 
 .btn-login:hover {
-    background-color: #0056b3;
+    background-color: #da739d;
 }
 
 /* Link para cadastro */
@@ -69,7 +71,7 @@
 }
 
 .footer-link a {
-    color: #007bff;
+    color: #ff009d;
     text-decoration: none;
     font-weight: bold;
 }

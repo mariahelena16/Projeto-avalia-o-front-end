@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Cookies from "js-cookie"; // Importamos a biblioteca
+import css from '../formStyle.css';
 
 
 export default function Dashboard() {
